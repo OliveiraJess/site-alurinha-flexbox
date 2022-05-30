@@ -30,8 +30,27 @@
 }
 
 .rodapePrincipal-navMap-list {
-    display       : flex;
-    flex-direction: column;
-    flex-wrap     : wrap;
-    height        : 250px;
+    display          : flex;
+    /* flex-direction: column;
+    flex-wrap        : wrap; */
+    flex-flow        : column wrap;
+    height           : 250px;
+}
+
+.conteudoPrincipal-cursos {
+    display  : flex;
+    flex-wrap: wrap;
+}
+
+.conteudoPrincipal-cursos-link {
+    margin: 1%;
+    width : 23%;
+}
+
+.conteudoPrincipal-cursos-link:nth-child(4n) {
+    margin-right: 0;
+}
+
+.conteudoPrincipal-cursos-link:nth-child(4n + 1) {
+    margin-left: 0;
 }
