@@ -53,7 +53,7 @@
     margin-right: 0;
 }
 
-.conteudoPrincipal-cursos-link:nth-child(4n + 1) {
+.conteudoPrincipal-cursos-link:nth-child(4n+1) {
     margin-left: 0;
 }
 
@@ -73,7 +73,8 @@
 }
 
 .videoSobre-video {
-    flex-grow: 1;
+    flex-grow  : 1;
+    flex-shrink: 2;
 }
 
 
@@ -123,6 +124,14 @@
 
     .rodapePrincipal-contatoForm-fieldset {
         justify-content: center;
+    }
+
+    .videoSobre .container {
+        flex-direction: column;
+    }
+
+    .videoSobre-video {
+        margin: 0 auto;
     }
 
 }
